@@ -4,7 +4,7 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 
 ### Cases of digital attack
 
-#### Carmear distance at 3
+#### Carmear distance is 3
 
 <table>
   <tr>
@@ -20,7 +20,7 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 </table>
 
 
-#### Carmear distance at 5  
+#### Carmear distance is 5  
 <table>
    <tr>
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_5_elevation_20_ori_pred.gif?raw=true'/></center></td>
@@ -33,7 +33,7 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 </table>
 
 
-#### Carmear distance at 10
+#### Carmear distance is 10
 <table>
     <tr>
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_10_elevation_30_ori_pred.gif?raw=true'/></center></td>
