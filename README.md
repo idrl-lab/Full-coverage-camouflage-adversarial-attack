@@ -101,7 +101,7 @@ As we can see from the Figure, different loss term plays different role in attac
 
 #### Different initialization ways
 
-<figure>
+<figure class="third">
   <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_ori.png?raw=true', alt="original", width="25%" height="25%"/>
   <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_adv_basic.png?raw=true', alt="basic camouflaged vehicle", width="25%" height="25%"/>
   <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_adv_random.png?raw=true', alt="random camouflaged vehicle", width="25%" height="25%"/>
