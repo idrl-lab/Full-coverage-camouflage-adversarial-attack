@@ -4,7 +4,7 @@ Case study of the FCA. The code can be find in [FCA]([http://]).
 
 ### Cases of digital attack
 
-!(image)[https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_10_elevation_30_adv_pred.gif]
+![image](https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_10_elevation_30_adv_pred.gif)
 
 ### Cases of multi-view robust
 
