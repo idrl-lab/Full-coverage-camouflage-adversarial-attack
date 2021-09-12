@@ -8,11 +8,13 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 
 <table>
   <tr>
+    <td>before</td>
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_3_elevation_0_ori_pred.gif?raw=true'/></center></td>
         <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_3_elevation_30_ori_pred.gif?raw=true'/></center></td>
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_3_elevation_50_ori_pred.gif?raw=true'/></center></td>
   </tr>
     <tr>
+    <td>after</td>
     <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_3_elevation_0_adv_pred.gif?raw=true'/></center></td>
     <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_3_elevation_30_adv_pred.gif?raw=true'/></center></td>    
     <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_3_elevation_50_adv_pred.gif?raw=true'/></center></td>
@@ -23,10 +25,12 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 #### Carmear distance is 5  
 <table>
    <tr>
+      <td>before</td>
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_5_elevation_20_ori_pred.gif?raw=true'/></center></td>
          <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_5_elevation_50_ori_pred.gif?raw=true'/></center></td>
   </tr>
     <tr>
+     <td>after</td>
     <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_5_elevation_20_adv_pred.gif?raw=true'/></center></td>
     <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_5_elevation_50_adv_pred.gif?raw=true'/></center></td>
   </tr>
@@ -36,10 +40,12 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 #### Carmear distance is 10
 <table>
     <tr>
+      <td>before</td>
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_10_elevation_30_ori_pred.gif?raw=true'/></center></td>
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_10_elevation_50_ori_pred.gif?raw=true'/></center></td>
   </tr>
     <tr>
+      <td>after</td>
 <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_10_elevation_30_adv_pred.gif?raw=true'/></center></td>
     <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_10_elevation_50_adv_pred.gif?raw=true'/></center></td>
   </tr>
