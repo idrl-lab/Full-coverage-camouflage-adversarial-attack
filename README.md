@@ -6,7 +6,7 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 
 #### Carmear distance is 3
 
-<table>
+<table frame=void>
   <tr>
     <td>before</td>
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_3_elevation_0_ori_pred.gif?raw=true'/></center></td>
