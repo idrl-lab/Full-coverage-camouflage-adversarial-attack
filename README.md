@@ -103,9 +103,15 @@ As we can see from the Figure, different loss term plays different role in attac
 
 <table>
   <tr>
-  <td><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_ori.png?raw=true', alt="original"/></td>
-  <td><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_adv_basic.png?raw=true', alt="basic camouflaged vehicle"/></td>
-  <td><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_adv_random.png?raw=true', alt="random camouflaged vehicle"/></td>
-  <td><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_adv_zero.png?raw=true', alt="zero camouflaged vehicle"/></td>
+  <td>original </td>
+  <td>basic initialization</td>
+  <td>random initialization</td>
+  <td>zero initialization</td>
+  \</tr>
+  <tr>
+  <td><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_ori.png?raw=true'/></td>
+  <td><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_adv_basic.png?raw=true'/></td>
+  <td><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_adv_random.png?raw=true'/></td>
+  <td><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/data13311_adv_zero.png?raw=true'/></td>
     </tr>
 </table>
