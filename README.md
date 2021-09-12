@@ -23,7 +23,7 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 
 
 #### Carmear distance is 5  
-<table style="border:0px">
+<table border=0>
    <tr>
       <td>before</td>
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/distance_5_elevation_20_ori_pred.gif?raw=true'/></center></td>
