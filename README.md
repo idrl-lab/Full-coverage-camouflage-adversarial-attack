@@ -49,6 +49,22 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 
 ### Cases of multi-view robust
 
+<figure>
+<img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_0_6_ori.png?raw=true'/>
+<img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_0_42_ori.png?raw=true'/>
+<img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_0_54_ori.png?raw=true'/>
+ <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_0_126_ori.png?raw=true'/>
+ <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_10_330_ori.png?raw=true'/>
+<img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_20_78_ori.png?raw=true'/>
+</figure>
+<figure>
+<img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_0_6_adv.png?raw=true'/>
+<img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_0_42_adv.png?raw=true'/>
+<img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_0_54_adv.png?raw=true'/>
+ <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_0_126_adv.png?raw=true'/>
+ <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_10_330_adv.png?raw=true'/>
+<img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_20_78_adv.png?raw=true'/>
+</figure>
 
 
 ### Ablation study
