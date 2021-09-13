@@ -4,13 +4,9 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 
 ### Cases of Digital Attack
 
+<a href="{https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/ori_yolov5_05offset_iouconf05.mp4}" title="Link Title"><img src="{https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/video_poster.png?raw=true}" /></a>
+
 #### Carmear distance is 3
-
-
-<video id="video" controls="" poster="https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/video_poster.png?raw=true" preload="none">
-      <source id="mp4" src="https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/ori_yolov5_05offset_iouconf05.mp4" type="video/mp4">
-</videos>
-
 
 
 <table frame=void>
