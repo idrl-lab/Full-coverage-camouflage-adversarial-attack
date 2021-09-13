@@ -6,10 +6,23 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 
 #### Carmear distance is 3
 
+<iframe 
+src="https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/ori_yolov5_05offset_iouconf05.mp4" 
+scrolling="no" 
+border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+height=600 
+width=800> 
+</iframe>
+
 <video id="video" controls="" preload="none">
-      <source id="mp4" src="https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/ori_yolov5_05offset_iouconf05.mp4?raw=true" type="video/mp4">
-  <source id="mp4" src="https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/adv_yolov5_05offset_iouconf05.mp4?raw=true" type="video/mp4">
+      <source id="mp4" src="https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/ori_yolov5_05offset_iouconf05.mp4" type="video/mp4">
+  <source id="mp4" src="https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/adv_yolov5_05offset_iouconf05.mp4" type="video/mp4">
 </videos>
+
+
 
 <table frame=void>
   <tr>
