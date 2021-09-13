@@ -9,7 +9,6 @@ Case study of the FCA. The code can be find in [FCA](https://github.com/winterwi
 
 <video id="video" controls="" preload="none">
       <source id="mp4" src="https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/ori_yolov5_05offset_iouconf05.mp4" type="video/mp4">
-  <source id="mp4" src="https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/adv_yolov5_05offset_iouconf05.mp4" type="video/mp4">
 </videos>
 
 
