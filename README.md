@@ -2,7 +2,7 @@
 
 [AAAI 2022 Paper](https://arxiv.org/abs/2109.07193) FCA: Learning a 3D Full-coverage Vehicle Camouflage for Multi-view Physical Adversarial Attack 
 
-Case study of the FCA. The code can be find in [FCA](https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/tree/gh-pages/src).
+Case study of the FCA. The code can be find in [FCA](https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/tree/gh-pages/src).
 
 ### Cases of Digital Attack
 
