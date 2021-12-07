@@ -25,10 +25,10 @@ import neural_renderer
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--batchsize", type=int, default=1)
-parser.add_argument("--obj", type=str, default='car_assets/audi_et_te.obj')
-parser.add_argument("--faces", type=str, default='car_assets/exterior_face.txt') # exterior_face   all_faces
+parser.add_argument("--obj", type=str, default='carassets/audi_et_te.obj')
+parser.add_argument("--faces", type=str, default='carassets/exterior_face.txt') # exterior_face   all_faces
 parser.add_argument("--textures", type=str, default='textures/texture_camouflage.npy')
-parser.add_argument("--datapath", type=str, default="../data/")
+parser.add_argument("--datapath", type=str, default="../carla_dataset/")
 args = parser.parse_args()
 
 
