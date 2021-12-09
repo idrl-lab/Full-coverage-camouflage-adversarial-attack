@@ -16,7 +16,7 @@ camouflage texture over the full vehicle surface. To mimic the real-world enviro
 
 ### Multi-view Attack: Carmear distance is 3
 
-<table frame=void>
+<table frame=void cellspacing="0" cellpadding="0">
     <tr>
       <td></td>
       <td>Elevation 0</td>
