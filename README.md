@@ -159,6 +159,6 @@ As we can see from the Figure, different loss terms plays different roles in att
 
 ## Cases of Phyical Attack
 
-<video id="video" controls="" preload="none" poster="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/video_poster.png?raw=true">
-      <source id="mp4" src="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/composed_horizon.mp4?raw=true" type="video/mp4">
+<video id="video" controls="" preload="none" poster="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/video_poster.png">
+      <source id="mp4" src="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/composed_horizon.mp4" type="video/mp4">
 </videos>
