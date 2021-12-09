@@ -85,6 +85,29 @@ camouflage texture over the full vehicle surface. To mimic the real-world enviro
   </tr>
 </table>
 
+### Multi-view Attack: different distance, elevation and azimuth
+
+<table>
+  <tr>
+   <td>Original</td>
+  <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_5_elevation_10_57_ori.png?raw=true' width="100" /></center></td>
+    <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_5_elevation_30_66_ori.png?raw=true' width="100" /> </center></td>
+      <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_10_elevation_0_135_ori.png?raw=true' width="100" /> </center></td>
+    <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_10_elevation_20_177_ori.png?raw=true' width="100" /> </center></td>
+      <td><center>  <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_15_elevation_20_330_ori.png?raw=true' width="100" /> </center></td>
+    <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_15_elevation_50_327_ori.png?raw=true' width="100" /></center></td>
+  </tr>
+  <tr>
+    <td>FCA</td>
+  <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_5_elevation_10_57_adv.png?raw=true' width="100" /></center></td>
+    <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_5_elevation_30_66_adv.png?raw=true' width="100" /> </center></td>
+      <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_10_elevation_0_135_adv.png?raw=true' width="100"/> </center></td>
+    <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_10_elevation_20_177_adv.png?raw=true' width="100" /> </center></td>
+      <td><center>  <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_15_elevation_20_330_adv.png?raw=true' width="100" /> </center></td>
+    <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_15_elevation_50_327_adv.png?raw=true' width="100"/></center></td>
+  </tr>
+</table>
+
 ### Partial occlusion 
 
 <table>
@@ -105,27 +128,6 @@ camouflage texture over the full vehicle surface. To mimic the real-world enviro
     <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_0_126_adv.png?raw=true' width="100" /> </center></td>
       <td><center>  <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_10_330_adv.png?raw=true' width="100" /> </center></td>
     <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_1.5_elevation_20_78_adv.png?raw=true' width="100" /></center></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-   <td>Original</td>
-  <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_5_elevation_10_57_ori.png?raw=true' width="100" /></center></td>
-    <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_5_elevation_30_66_ori.png?raw=true' width="100" /> </center></td>
-      <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_10_elevation_0_135_ori.png?raw=true' width="100" /> </center></td>
-    <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_10_elevation_20_177_ori.png?raw=true' width="100" /> </center></td>
-      <td><center>  <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_15_elevation_20_330_ori.png?raw=true' width="100" /> </center></td>
-    <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_15_elevation_50_327_ori.png?raw=true' width="100" /></center></td>
-  </tr>
-  <tr>
-    <td>FCA</td>
-  <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_5_elevation_10_57_adv.png?raw=true' width="100" /></center></td>
-    <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_5_elevation_30_66_adv.png?raw=true' width="100" /> </center></td>
-      <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_10_elevation_0_135_adv.png?raw=true' width="100"/> </center></td>
-    <td><center> <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_10_elevation_20_177_adv.png?raw=true' width="100" /> </center></td>
-      <td><center>  <img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_15_elevation_20_330_adv.png?raw=true' width="100" /> </center></td>
-    <td><center><img src = 'https://github.com/winterwindwang/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/camera_distance_15_elevation_50_327_adv.png?raw=true' width="100"/></center></td>
   </tr>
 </table>
 
@@ -157,4 +159,6 @@ As we can see from the Figure, different loss terms plays different roles in att
 
 ## Cases of Phyical Attack
 
-<iframe src="//player.bilibili.com/player.html?aid=379742176&bvid=BV1aZ4y197H8&cid=457802709&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<video id="video" controls="" preload="none" poster="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/video_poster.png?raw=true">
+      <source id="mp4" src="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/composed_horizon.mp4?raw=true" type="video/mp4">
+</videos>
