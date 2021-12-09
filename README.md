@@ -14,7 +14,7 @@ camouflage texture over the full vehicle surface. To mimic the real-world enviro
 
 ## Cases of Digital Attack
 
-### Multi-view AttackL: Carmear distance is 3
+### Multi-view Attack: Carmear distance is 3
 
 <table frame=void>
     <tr>
@@ -38,7 +38,7 @@ camouflage texture over the full vehicle surface. To mimic the real-world enviro
 </table>
 
 
-### Multi-view AttackL: Carmear distance is 5  
+### Multi-view Attack: Carmear distance is 5  
 
 <table border=0>
     <tr>
@@ -62,7 +62,7 @@ camouflage texture over the full vehicle surface. To mimic the real-world enviro
 </table>
 
 
-### Multi-view AttackL: Carmear distance is 10
+### Multi-view Attack: Carmear distance is 10
 
 <table>
     <tr>
