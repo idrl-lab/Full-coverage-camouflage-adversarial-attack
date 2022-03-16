@@ -160,9 +160,7 @@ As we can see from the Figure, different loss terms plays different roles in att
 
 ### Case in the simulator environment
 
-<video id="video" controls="" preload="none" poster="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/video_poster.png">
-      <source id="mp4" src="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/composed_horizon.mp4" type="video/mp4">
-</video>
+<iframe height=498 width=510 src='https://player.youku.com/embed/XNTg1MTAyMjc0OA==' frameborder=0 'allowfullscreen'></iframe>
 
 ### Case in the real world
 
