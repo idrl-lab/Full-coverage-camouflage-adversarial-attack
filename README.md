@@ -164,6 +164,4 @@ As we can see from the Figure, different loss terms plays different roles in att
 
 ### Case in the real world
 
-<video id="video" controls="" preload="none" poster="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/physcial_demo.png">
-      <source id="mp4" src="https://github.com/idrl-lab/Full-coverage-camouflage-adversarial-attack/blob/gh-pages/assets/physcial_demo.mp4" type="video/mp4">
-</video>
+<iframe src="//player.bilibili.com/player.html?aid=852356546&bvid=BV1RL4y1T723&cid=550828041&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
