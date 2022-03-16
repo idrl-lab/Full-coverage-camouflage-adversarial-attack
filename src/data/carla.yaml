@@ -6,8 +6,8 @@
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 path: data/phy_attack  # dataset root dir
-train: train_new  # train image (note that: image rather than npz, but you should modify line between 123-129 and 414-417 in the datasets_fca.py)
-val: train_new  # 
+train: train_new  # the train image folder, and the "train_label_new" is the folder of training annotation label. (note that: image rather than npz, while you can modify this on 123-129 and 414-417 in datasets_fca.py)
+val: train_new  # no used
 test:  # test images (optional)
 
 # Classes
