@@ -9,3 +9,4 @@
 ## Note that
 1. After you download the dataset and place them into each folder, you should create a yaml in data folder, see data/carala.yaml for example. 
 2. To run compute the adversarial loss, you need to get the label(annotation) for each image. In our implementation, for simplicity, we used the Faster RCNN to inference each rendered image(due to the character of rendered image, we can get relatively accuracy label) and get the corresponding label.
+3. We provide the used train_label in [https://pan.baidu.com/s/18ZcQQgsr1DFbyUK4YVQ8WQ](https://pan.baidu.com/s/18ZcQQgsr1DFbyUK4YVQ8WQ) with the fetech code idrl
