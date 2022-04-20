@@ -1,7 +1,5 @@
-import shutil
 import torch
 from torch.utils.data import DataLoader
-from torchvision import models
 from data_loader import MyDatasetTestAdv
 from tqdm import tqdm
 import numpy as np
@@ -9,17 +7,9 @@ import sys
 import argparse
 from PIL import Image
 import os
-from grad_cam import CAM
-from torchvision import transforms
-import torchvision
-from fasterrcnn.plot_image import plot_image
-from fasterrcnn.plot_image import *
-from fasterrcnn.golden import golden
-
 
 
 sys.path.append("./neural_renderer/")
-
 import neural_renderer
 
 parser = argparse.ArgumentParser()
@@ -28,7 +18,7 @@ parser.add_argument("--batchsize", type=int, default=1)
 parser.add_argument("--obj", type=str, default='carassets/audi_et_te.obj')
 parser.add_argument("--faces", type=str, default='carassets/exterior_face.txt') # exterior_face   all_faces
 parser.add_argument("--textures", type=str, default='textures/texture_camouflage.npy')
-parser.add_argument("--datapath", type=str, default="../carla_dataset/")
+parser.add_argument("--datapath", type=str, default="carla_dataset/")
 args = parser.parse_args()
 
 
@@ -56,11 +46,8 @@ texture_mask = torch.from_numpy(texture_mask).cuda(device=0).unsqueeze(0)
 
 
 def cal_texture(texture_content, CONTENT=False):
-    if CONTENT:
-        textures = 0.5 * (torch.nn.Tanh()(texture_content) + 1)
-    else:
-        textures = 0.5 * (torch.nn.Tanh()(texture_param) + 1)
-    return texture_origin * (1 - texture_mask) + texture_mask * texture
+    textures = 0.5 * (torch.nn.Tanh()(texture_content) + 1)
+    return texture_origin * (1 - texture_mask) + texture_mask * textures
 
 
 @torch.no_grad()
@@ -80,20 +67,23 @@ def run_cam(data_dir, batch_size=BATCH_SIZE):
     textures_adv = cal_texture(texture_content_adv, CONTENT=True)
     dataset.set_textures(textures_adv)
     for i, (index, total_img, texture_img, _,  filename) in enumerate(tqdm_loader):
-            index = int(index[0])
             texture_img_np = total_img.data.cpu().numpy()[0]
             texture_img_np = Image.fromarray(np.transpose(texture_img_np, (1, 2, 0)).astype('uint8'))
             filename = filename[0].split('.')[0]
-            texture_img_np.save(fr'savedImage/{filename}.png')
+            save_path = 'savedImage'
+            if not os.path.exists(save_path):
+                os.makedirs(save_path)
+            texture_img_np.save(fr'{save_path}/{filename}.png')
             
             # Yolo-v5 detection
             results = net(texture_img_np)
+            results.save(fr'{save_path}/{filename}_pred.png')
             results.show()
-            results.save(fr'savedImage/{filename}_pred.png')
+
 
 
 if __name__ == "__main__":
-    data_dir = "../data/test/"
+    data_dir = f"{args.datapath}/test/"
     batch_size = 1
     input_size = 800
     net = torch.hub.load('ultralytics/yolov5', 'yolov5x')  # or yolov5m, yolov5x, custom

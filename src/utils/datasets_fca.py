@@ -184,8 +184,8 @@ class LoadImagesAndLabels(Dataset):  # for training/testing
         # cache.pop('hash')  # remove hash
         # cache.pop('version')  # remove version
         if phase == 'training':
-            # [cache.pop(k) for k in ('hash', 'version')]  # remove items
-            [cache.pop(k) for k in ('hash', 'version', 'msgs')]  # remove items
+            [cache.pop(k) for k in ('hash', 'version')]  # remove items
+            # [cache.pop(k) for k in ('hash', 'version', 'msgs')]  # remove items
         else:
             [cache.pop(k) for k in ('hash', 'version')]  # remove items
         labels, shapes, self.segments = zip(*cache.values())
