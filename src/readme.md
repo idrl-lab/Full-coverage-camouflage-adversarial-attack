@@ -1,5 +1,7 @@
 ## The official implementation for AAAI2022 paper "FCA Learning a 3D Full-coverage Vehicle Camouflage for Multi view Physical Adversarial Attack"
 
+## Attention!!! The generation process of the face file is [here](https://github.com/winterwindwang/winterwindwang.github.io/blob/master/_posts/tech/2022-05-05-fca-technical-details-face.md)
+
 ### Install the following python package before run the code.
 
 > neural_renderer 
